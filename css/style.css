@@ -517,6 +517,64 @@ nav .icon i{
        transition: 0.5s;
   }
   
-  .PORTFOLIO .images .images .cap h4{
-      
+  .PORTFOLIO .images .image .cap h4{
+      padding:20px 20px 0 20px;
   }
+  .PORTFOLIO .images .image .cap h5{
+      padding:20px;
+      color: #00C7FC;
+  }
+  .PORTFOLIO button{
+      color: white;
+      background-color: turquoise;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -100%;
+      padding: 15px;
+      border: none;
+ }
+
+
+@media(max-width:1500px){
+    .PORTFOLIO button{
+        bottom: -110%;
+    }
+}
+@media(max-width:1350px){
+    .PORTFOLIO button{
+        bottom: -140%;
+    }
+}
+@media(max-width:1200px){
+    .PORTFOLIO button{
+        bottom: -40%;
+    }
+}
+@media(max-width:980px){
+    .PORTFOLIO button{
+        bottom: -50%;
+    }
+}
+@media(max-width:767px){
+    .PORTFOLIO button{
+        bottom: -18%;
+    }
+}
+@media(max-width:536px){
+    .PORTFOLIO button{
+        bottom: -23%;
+    }
+}
+@media(max-width:420px){
+    .PORTFOLIO button{
+        bottom: -28%;
+    }
+}
+
+
+
+ .PORTFOLIO button a{
+     color: white;
+     font-weight: bold;
+ }
