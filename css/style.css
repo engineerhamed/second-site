@@ -657,6 +657,7 @@ nav .icon i{
 
  .vid{
      position: relative;
+     margin-bottom: 200px;
     
  }
 
@@ -729,9 +730,12 @@ nav .icon i{
       .about .main-head p{
            margin-bottom: 100px;
          }
+      .about .main-head h2{
+        margin: -170px 0 50px 0;
+         }
      .about .content{
-         position: absolute;
-         top: 200px;
+         /* position: absolute; */
+         /* top: 200px; */
          display: flex;
          flex-wrap: wrap;
          width: 100%;
@@ -744,6 +748,7 @@ nav .icon i{
          width: 100%;
          position: relative;
          margin-top: 200px;
+         margin-bottom: 100px;
        }
        .about .content .box .sec{
            width: 80%;
@@ -800,7 +805,7 @@ nav .icon i{
           transform: translateX(-50%);
        }
        .content .image img{
-           width: 380px;
+           width: 350px;
        }
 
        @media(max-width:990px){
@@ -846,18 +851,22 @@ nav .icon i{
             margin-right: 0;
             overflow: hidden;
         }
+        .content .image img{
+            width: 200px;
+        }
        }
        .test-skill{
-        position: relative;
-     
+        /* position: relative; */
+    
         }
         .test-skill .container{
-            position: absolute;
-            top:1000px;
+            /* position: absolute;
+            top:1000px; */
             display: flex;
         }
         .test-skill .container .test{
             margin-right: 120px;
+            margin-bottom: 100px;
         }
         .test-skill .container .test .text{
             text-align: center;
@@ -865,7 +874,7 @@ nav .icon i{
         .test-skill .container .test .text h2{
             font-size: 20px;
             font-weight: 200;
-            margin-bottom: 20px;
+            
         }
         .test-skill .container .test .text p{
             font-size: 18px;
@@ -875,6 +884,7 @@ nav .icon i{
         }
         .test-skill .container .test .boxs{
             position: relative;
+            margin-bottom: 100px;
         }
         .test-skill .container .test .boxs .box{
             display: flex;
@@ -882,6 +892,7 @@ nav .icon i{
             align-items: center;
             margin-bottom: 35px;
             position: relative;
+            
         }
         .test-skill .container .test .boxs .box::after{
             content: "";
@@ -973,6 +984,10 @@ nav .icon i{
             position: relative;
             z-index:2;
         }
+        .test-skill .container .skill{
+            margin-bottom: 100px;
+        }
+
         .test-skill .container .skill .section .d{
             height: 30px;
             width: 90%;
@@ -1011,14 +1026,14 @@ nav .icon i{
                 flex-direction: column;
             }
             .test-skill .container .test .boxs ul{
-                top: 155%;
+                top: 110%;
                 left: 57%;
                margin: 130px 0;
               
             }
             .test-skill .container .skill{
                 margin-top: 100px;
-            }
+                 }
            
         }
         @media(max-width:751px){
@@ -1071,4 +1086,79 @@ nav .icon i{
                display: none;
             }
         }
-        
+
+
+       .qu{
+           background-color: rgb(60, 9, 73);
+           height: 300px;
+           width: 100%;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+       }
+       .qu q ,
+       .qu p {
+           color: white;
+           font-size: 25px;
+           font-weight: bold;
+           text-align: center;
+           padding: 0 10px;
+       }
+
+
+       .price .container{
+         position: relative;
+         
+       }
+       .price .container .prices{
+           position: absolute;
+           top: 450px;
+           left: 50%;
+           transform: translateX(-50%);
+           width: 100%;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+          
+       }
+       .price .container .prices .box{
+          background-color: rgb(247, 247, 247);
+         margin: 20px 10px;
+         width: 280px;
+          
+       }
+       .price .container .prices .box .money{
+           
+           border-top: solid 2px #00C7FC;
+           border-bottom: solid 2px #00C7FC;
+           
+       }
+       .price .container .prices .box .detail{
+        border-bottom: solid 2px #00C7FC;
+       }
+
+       .price .container .prices .box .money div{
+           text-align: center;
+       }
+       .price .container .prices .box .money span{
+           font-size: 55px;
+           text-align: center;
+           font-weight: bold;
+       }
+       .price .container .prices .box .money .a{
+           margin-bottom: 10px;
+           font-size: 20px;
+           font-weight: normal;
+       }
+       .price .container .prices .box .money sub ,
+       .price .container .prices .box .money sup{
+            font-weight: bold;
+            font-size: 17px;
+       }
+
+       .price .container .prices .box .detail div{
+           width: fit-content;
+           text-align: center;
+           margin:auto;
+       }
